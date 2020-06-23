@@ -3,3 +3,15 @@
         left: 0px !important; 
     } 
 }
+
+@media only screen and (max-width: 500px){
+    .title-bg {
+        letter-spacing: 1px !important;
+    }
+}
+
+@media only screen and (max-width: 350px){
+    .title-bg {
+        font-size: 45px !important;
+    }
+}
