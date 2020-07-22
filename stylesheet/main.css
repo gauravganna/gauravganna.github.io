@@ -11,6 +11,12 @@
     /* Other styles here */
 /* } */
 
+  .skill-set {
+    padding: 0px 20px;
+    line-height: 1.6;
+    font-size: 12px !important;
+  }
+
 /*------------------------------------------------
 	Base Styles
 -------------------------------------------------*/
@@ -1266,6 +1272,11 @@ textarea, label {
 	Mobile (Portrait) Design for a width of 320px
 ==============================================================*/
 @media only screen and (max-width: 767px) {
+  /* Added by me */
+  .author-thumb {
+    width: min-content;
+  }
+
   body {
     overflow-x: hidden; }
   .pt-table {
